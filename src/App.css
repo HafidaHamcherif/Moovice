@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  font-family: nunito;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Nunito)
+
