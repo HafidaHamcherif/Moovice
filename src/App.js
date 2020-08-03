@@ -10,6 +10,7 @@ import Battle from './components/Battle';
 import Popular from './components/Popular';
 import Popularbattle from './components/Populatbattle';
 import Mylist from './components/Mylist';
+import Discover from './components/Discover';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
@@ -42,6 +43,7 @@ class App extends React.Component {
           </Route>
           <Route path="/">
             <Thisweek/>
+            <Discover/>
           </Route>
         </Switch>
       </Router>
